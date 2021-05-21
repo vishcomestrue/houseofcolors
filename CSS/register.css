@@ -1,0 +1,99 @@
+/* COMMON CSS PROPERTY OF ALL SUBWEBSITES */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+header {
+    background: indigo;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+.topleft {
+    color: antiquewhite;
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    left: 35px;
+    font-size: 22px;
+    font-family: 'Langar', cursive;
+}
+.navbar {
+    border: 2px solid indigo;
+    color: whitesmoke;
+    font-family: "Ubuntu", sans-serif;
+    display: inline-block;
+    width: 38%;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.navbar ul {
+    display: inline-block;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 11px;
+}
+.navbar li a:hover {
+    background-color: rgba(192, 192, 192, 0.305);
+}
+.topright {
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    right: 5px;
+    width: 172px;
+}
+
+/* Head content is over here but the below button property is also same for all register and login */
+
+.btn{
+    color: blanchedalmond;
+    background: inherit;
+    border-radius: 34px;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.btn:hover {
+    cursor: pointer;
+    background: grey;
+}
+.footer {
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    color: purple;
+    text-align: center;
+}
+
+
+/* This is individual effects that are applied for the page  */
+
+.form-heading {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+.formbox {
+    border: 2px solid yellow;
+    position: relative;
+}
+.form {
+    border: 2px solid lime;
+    display: block;
+    color: aquamarine;
+    font-size: 1.4rem;
+}
+.input {
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+}

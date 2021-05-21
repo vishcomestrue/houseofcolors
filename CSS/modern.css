@@ -1,0 +1,127 @@
+/* Body and head content same for all  */
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('holdbrush.jpg') no-repeat;
+    background-attachment: scroll;
+    background-size: 110%;
+}
+header {
+    background: indigo;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+.topleft {
+    color: antiquewhite;
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    left: 35px;
+    font-size: 22px;
+    font-family: 'Langar', cursive;
+}
+.navbar {
+    border: 2px solid indigo;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    width: 38%;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.navbar ul {
+    display: inline-block;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 11px;
+}
+.navbar li a:hover {
+    background-color: rgba(192, 192, 192, 0.305);
+}
+.topright {
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    right: 5px;
+    width: 172px;
+}
+
+/* Head content is over here but the below button property is also same for all register and login */
+
+.btn{
+    color: blanchedalmond;
+    background: inherit;
+    border-radius: 34px;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.btn:hover {
+    cursor: pointer;
+    background: grey;
+}
+.footer {
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    color: floralwhite;
+    text-align: center;
+}
+
+/* Now indicating which tab is active  */
+
+#categories {
+    color: darkkhaki;
+}
+
+/* Now individual styles for the contents in the page  */
+
+.mainheading {
+    text-align: center;
+    color: lightsalmon;
+    font-family: 'Langar', cursive;
+    text-shadow: -3px -3px lightslategrey;
+}
+.outercontainer {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 2fr));
+    justify-content: space-evenly; */
+}
+.columns {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.art {
+    width: 300px;
+    height: 300px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;  /* Try changing this to rem or em units when you change it to a responsive website  */
+    color: lemonchiffon;
+}
+.buy {
+    background-color: transparent;
+    color:aliceblue;
+    cursor: pointer;
+}
+.buy:hover {
+    background-color: grey;
+}

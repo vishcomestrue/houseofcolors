@@ -1,0 +1,42 @@
+/*This is the original code before trying flexbox*/
+.box {
+    border: 2px solid red;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px;
+}
+.art{
+    height: 300px;
+    width: 300px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+    color: lemonchiffon;
+}
+.buy {
+    background-color: transparent;
+    color:aliceblue;
+    cursor: pointer;
+}
+.buy:hover {
+    background-color: grey;
+}
+
+/* These columns 1 to 4 are the positions of images placed in the respective places in the home page */
+
+.cola {
+    margin-left: 41.5px;
+}
+.colb {
+    position: relative;
+    left: 5px;
+}
+.colc {
+    position: relative;
+    left: 10px;
+}
+.cold {
+    position: relative;
+    left: 15px;
+}
