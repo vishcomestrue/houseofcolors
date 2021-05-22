@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    background-color: rgb(173, 122, 27);
 }
 header {
     background: indigo;
@@ -78,18 +78,18 @@ header {
 /* This is individual effects that are applied for the page  */
 
 .form-heading {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
 .formbox {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     position: relative;
 }
 .form {
-    border: 2px solid lime;
+    /* border: 2px solid lime; */
     display: block;
-    color: aquamarine;
+    color: rgb(22, 8, 54);
     font-size: 1.4rem;
 }
 .input {
