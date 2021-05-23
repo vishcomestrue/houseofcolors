@@ -2,16 +2,21 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url('backgrounds/register_backgrounds.png') no-repeat;
+    background-image: url('/backgrounds/register_background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header {
-    background: indigo;
+    /* background: indigo; */
+    background: rgba(245, 245, 245, 0.568);
     position: sticky;
     top: 0;
     z-index: 200;
 }
 .topleft {
-    color: antiquewhite;
+    /* color: antiquewhite; */
+    color: indigo;
     display: inline-block;
     position: absolute;
     top: 28px;
@@ -20,8 +25,9 @@ header {
     font-family: 'Langar', cursive;
 }
 .navbar {
-    border: 2px solid indigo;
-    color: whitesmoke;
+    /* border: 2px solid indigo; */
+    /* color: whitesmoke; */
+    color: indigo;
     font-family: "Ubuntu", sans-serif;
     display: inline-block;
     width: 38%;
@@ -38,13 +44,15 @@ header {
 }
 .navbar li a {
     text-decoration: none;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: indigo;
     padding-left: 11px;
     padding-right: 11px;
     padding-bottom: 11px;
 }
 .navbar li a:hover {
-    background-color: rgba(192, 192, 192, 0.305);
+    /* background-color: rgba(192, 192, 192, 0.305); */
+    background-color: rgba(115, 45, 165, 0.664);
 }
 .topright {
     display: inline-block;
@@ -57,7 +65,8 @@ header {
 /* Head content is over here but the below button property is also same for all register and login */
 
 .btn{
-    color: blanchedalmond;
+    /* color: blanchedalmond; */
+    color: indigo;
     background: inherit;
     border-radius: 34px;
     font-size: 15px;
@@ -66,6 +75,7 @@ header {
 .btn:hover {
     cursor: pointer;
     background: grey;
+
 }
 .footer {
     background-color: transparent;
