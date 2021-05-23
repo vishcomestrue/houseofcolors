@@ -2,10 +2,11 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("/backgrounds/register_background.png");
+    /* background-image: url("/backgrounds/register_background.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #DD9BCF;
 }
 header {
     /* background: indigo; */
