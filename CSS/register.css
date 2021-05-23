@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(173, 122, 27);
+    background-image: url('backgrounds/register_backgrounds.png') no-repeat;
 }
 header {
     background: indigo;
@@ -70,7 +70,7 @@ header {
 .footer {
     background-color: transparent;
     font-family: 'Times New Roman', Times, serif;
-    color: purple;
+    color: goldenrod;
     text-align: center;
 }
 
@@ -79,12 +79,16 @@ header {
 
 .form-heading {
     color: rgb(0, 0, 0);
-    font-family: 'Pacifico', cursive;
+    font-family: 'Work Sans Pro';
     text-align: center;
 }
 .formbox {
     /* border: 2px solid yellow; */
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    height: 72vh;
 }
 .form {
     /* border: 2px solid lime; */
