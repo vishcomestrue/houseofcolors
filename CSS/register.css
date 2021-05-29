@@ -6,18 +6,18 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color: #DD9BCF;
+    background-color: #181724;
 }
 header {
     /* background: indigo; */
-    background: rgba(245, 245, 245, 0.568);
+    background: #6D5595;
     position: sticky;
     top: 0;
     z-index: 200;
 }
 .topleft {
     /* color: antiquewhite; */
-    color: indigo;
+    color: whitesmoke;
     display: inline-block;
     position: absolute;
     top: 28px;
@@ -28,7 +28,7 @@ header {
 .navbar {
     /* border: 2px solid indigo; */
     /* color: whitesmoke; */
-    color: indigo;
+    color: whitesmoke;
     font-family: "Ubuntu", sans-serif;
     display: inline-block;
     width: 38%;
@@ -46,7 +46,7 @@ header {
 .navbar li a {
     text-decoration: none;
     /* color: whitesmoke; */
-    color: indigo;
+    color: whitesmoke;
     padding-left: 11px;
     padding-right: 11px;
     padding-bottom: 11px;
@@ -67,7 +67,7 @@ header {
 
 .btn{
     /* color: blanchedalmond; */
-    color: indigo;
+    color: white;
     background: inherit;
     border-radius: 34px;
     font-size: 15px;
@@ -75,7 +75,7 @@ header {
 }
 .btn:hover {
     cursor: pointer;
-    background: grey;
+    background: rgba(128, 128, 128, 0.657);
 
 }
 .footer {
@@ -89,7 +89,7 @@ header {
 /* This is individual effects that are applied for the page  */
 
 .form-heading {
-    color: rgb(0, 0, 0);
+    color: #5D365B;
     font-family: 'Work Sans Pro';
     text-align: center;
 }
@@ -104,7 +104,7 @@ header {
 .form {
     /* border: 2px solid lime; */
     display: block;
-    color: rgb(22, 8, 54);
+    color: white;
     font-size: 1.4rem;
 }
 .input {
