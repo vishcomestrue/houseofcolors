@@ -73,6 +73,7 @@ header {
 .nodec {
     text-decoration: none;
     color: blanchedalmond;
+    padding: 5px;
 }
 .footer {
     background-color: transparent;
