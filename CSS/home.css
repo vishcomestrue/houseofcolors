@@ -26,6 +26,7 @@ header {
     left: 35px;
     font-size: 22px;
     font-family: 'Langar', cursive;
+    transform: translateY(-20%);
 }
 
 .navbar {
@@ -37,6 +38,7 @@ header {
     margin-top: 20px;
     margin-left: 400px;
     margin-right: 400px;
+    transform: translateY(-20%);
 }
 
 .navbar ul {
@@ -162,6 +164,7 @@ header {
     background-color: transparent;
     color: aliceblue;
     cursor: pointer;
+    padding: 5px 10px;
 }
 .buy:hover {
     background-color: grey;
